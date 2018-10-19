@@ -1,0 +1,1 @@
+xcopy /s /Y WindowsPowerShell\profile.ps1 %USERPROFILE%\Documents\WindowsPowerShell

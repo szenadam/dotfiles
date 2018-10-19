@@ -27,6 +27,7 @@ if ($DockerAliasesOn -and $(Get-Command 'docker' -ErrorAction SilentlyContinue))
   Set-Alias dp dockerp
 }
 
+# For quick testing
 function test ($VALUE) {
   if ($VALUE) {
     Write-Host -ForegroundColor Green 'TRUE'
@@ -34,5 +35,3 @@ function test ($VALUE) {
     Write-Host -ForegroundColor Red 'FALSE'
   }
 }
-
-Set-Alias t test
